@@ -1,0 +1,124 @@
+body {
+    background-image: url('../imgs/background-vector-4.svg'), url('../imgs/baclground-vector-3.svg'), url('../imgs/background-vector-2.svg'), url('../imgs/background-vector-1.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 35px;
+    color: white;
+}
+
+.left-side {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-right: 19%;
+}
+
+.left-side img {
+    width: 219px;
+}
+
+.right-side {
+    display: inline-block;
+}
+
+.right-side ul {
+    display: inline-block;
+}
+
+.right-side li {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-in {
+    margin-left: 100px;
+}
+
+.sign-up-button {
+    background-color: white;
+    color: black;
+    width: 147px;
+    height: 48px;
+    border: none;
+    border-radius: 52px;
+    font-weight: 600;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.first-section {
+    padding: 20px;
+}
+
+.first-section-main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.first-section-left-side {
+    max-width: 553px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.first-section-left-side h5 {
+    color: #2278d4;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.first-section-left-side h1 {
+    font-weight: 500;
+    font-size: 48px;
+    max-width: 553px;
+    width: 100%;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.first-section-left-side p {
+    color: #191B21;
+    line-height: 24px;
+    opacity: 0.6;
+    max-width: 511px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.first-section-left-side button {
+    max-width: 147px;
+    width: 100%;
+    height: 48px;
+    border-radius: 52px;
+    background-color: #22A75D;
+    color: white;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.first-section-right-side {
+    margin-left: 200px;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 442px;
+    width: 100%;
+    height: 785px;
+    background-image: url('../imgs/background-person-2.png'), url('../imgs/background-person-1.png');
+    background-size: 310px, contain;
+    background-repeat: no-repeat;
+    background-position: left 80px top, left 200px top;
+}
