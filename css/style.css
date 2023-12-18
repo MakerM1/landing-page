@@ -1,11 +1,16 @@
 body {
-    background-image: url('../imgs/background-vector-4.svg'),
-        url('../imgs/baclground-vector-3.svg'),
+    background-image: url('../imgs/background-vector-7.svg'),
+        url('../imgs/background-vector-6.svg'),
+        url('../imgs/footer-svg.svg'),
+        url('../imgs/background-vector-4.svg'),
+        url('../imgs/background-vector-3.svg'),
         url('../imgs/background-vector-2.svg'),
         url('../imgs/background-vector-1.svg');
     background-repeat: no-repeat;
-    background-position: top right, top right, top right, top right;
+    background-position: bottom 1800px center, bottom 450px center, bottom center, top right, top right, top right, top right;
+    background-size: auto 1750px, auto 1700px, auto 1000px, auto, auto, auto, auto;
     font-family: sans-serif;
+    z-index: 10;
 }
 
 header {
@@ -138,7 +143,7 @@ main {
     width: 100%;
     height: 785px;
     background-image: url('../imgs/background-person-2.png'), url('../imgs/background-person-1.png');
-    background-size: 310px, contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: left 80px top, left 200px top;
 }
@@ -366,6 +371,11 @@ main {
 
 .fifth-section {
     padding: 10px;
+    color: white;
+    background-image: url('../imgs/cloud-3.svg'), url('../imgs/spaceship2.svg');
+    background-repeat: no-repeat;
+    background-size: 301px 207px, 500px 400px;
+    background-position: left top 400px, right -120px top 340px;
 }
 
 .fifth-section-main-container {
@@ -377,7 +387,7 @@ main {
 }
 
 .fifth-section-main-container h2 {
-    color: #191B21;
+    color: white;
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -388,7 +398,6 @@ main {
     width: 100%;
     height: 485px;
     background-color: white;
-    border: 2px solid red;
     border-radius: 20px;
     padding: 10px;
     background-repeat: no-repeat;
@@ -448,6 +457,10 @@ main {
     margin-bottom: 10px;
 }
 
+.how-to-buy-container {
+    margin-bottom: 324px;
+}
+
 .how-to-buy-container h2 {
     margin-bottom: 30px;
 }
@@ -458,4 +471,77 @@ main {
 
 .how-to-buy-container i {
     margin-bottom: 10px;
+}
+
+footer {
+    padding: 120px 0 128px 0;
+    text-align: center;
+    height: auto;
+    color: white;
+}
+
+.footer-top-part {
+    margin-bottom: 128px;
+}
+
+.footer-top-part ul li {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.footer-top-part ul .underline {
+    text-decoration: underline;
+}
+
+.footer-top-part ul li .slash {
+    margin-right: 66px;
+    margin-left: 66px;
+    font-weight: 700;
+    opacity: 0.16;
+    text-decoration: none;
+}
+
+.footer-bottom-part .img-container,
+.icons,
+.copyright {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-bottom-part .img-container {
+    margin-right: 293px;
+}
+
+.footer-bottom-part .icons {
+    margin-right: 293px;
+    text-align: center;
+}
+
+.footer-bottom-part .icons .icon {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.footer-bottom-part .copyright {
+    text-align: right;
+}
+
+.footer-bottom-part .copyright img {
+    vertical-align: middle;
+}
+
+.footer-bottom-part .copyright p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-bottom-part .designer {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    opacity: 0.6;
 }
