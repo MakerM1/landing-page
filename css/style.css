@@ -311,6 +311,7 @@ main {
 .fourth-section {
     padding: 10px;
     margin-top: 503px;
+    margin-bottom: 65px;
 }
 
 .fourth-section-main-container {
@@ -361,4 +362,100 @@ main {
     background-repeat: no-repeat;
     background-size: 712px 746px, 190px 147px, 271px 237px, 700px 900px;
     background-position: left -100px bottom -50px, top 85px left 180px, right bottom 130px, right 28px center;
+}
+
+.fifth-section {
+    padding: 10px;
+}
+
+.fifth-section-main-container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 443px;
+    text-align: center;
+}
+
+.fifth-section-main-container h2 {
+    color: #191B21;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.phases-cards {
+    max-width: 411px;
+    width: 100%;
+    height: 485px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: top 67px left 55px;
+    background-size: 273px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+
+}
+
+.phase-card01 {
+    background-image: url('../imgs/01.svg');
+}
+
+.phase-card02 {
+    background-image: url('../imgs/02.svg');
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.phase-card03 {
+    background-image: url('../imgs/03.svg');
+    margin-right: 0;
+}
+
+.phases-cards h3 {
+    margin-top: 160px;
+    color: #191B21;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.phases-cards-date {
+    color: #191B21;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 70px;
+}
+
+.phases-cards-currency {
+    color: #191B21;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.phases-cards-caps {
+    color: #191B21;
+    opacity: 0.8;
+}
+
+.phases-cards-caps span {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.how-to-buy-container h2 {
+    margin-bottom: 30px;
+}
+
+.how-to-buy-container p {
+    margin-bottom: 10px;
+}
+
+.how-to-buy-container i {
+    margin-bottom: 10px;
 }
